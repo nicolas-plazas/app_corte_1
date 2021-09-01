@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+		"paths": {
+            "@images/*": ["public/images/*"],
+            // "@styles/*": ["src/styles/*"],
+            "@components/*": ["components/*"],
+            // "@hooks/*": ["src/hooks/*"],
+            // "@context/*": ["src/context/*"],
+            // "@reducers/*": ["src/reducers/*"],
+            // "@actions/*": ["src/actions/*"],
+            // "@utils/*": ["src/utils/*"]
+		},
+    },
+    "exclude": ["node_modules/*"],
+}
